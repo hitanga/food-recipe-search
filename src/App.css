@@ -44,14 +44,20 @@
   margin:auto;
 }
 
-
 h1 {
   font-family: "Poppins", serif;
   font-size:32px;
   margin-bottom:50px;
   text-align:center;
+  text-transform: uppercase;
   font-weight:700;
   margin-bottom:20px;
+  margin-top:50px;
+}
+
+.logo {
+  height:2em;
+  padding:0;
 }
 
 .searchbar {
@@ -71,10 +77,15 @@ h1 {
     }
 }
 
+.mealdiv {
+  margin-top:50px;
+}
+
 .meals {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom:50px;
     .mealcards {
       display: flex;
       gap:10px;
@@ -109,6 +120,10 @@ h1 {
   background: #f9f9f9;
   padding: 20px;
   border: 1px #ccc solid;
+  margin-bottom:50px;
+    .info {
+      font-style: italic;     
+    }
 }
 
 .back {

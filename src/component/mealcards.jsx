@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Mealcards = ({ detail }) => {
-    console.log(detail);
+    //console.log(detail);
 
     return (
         <div className="meals">

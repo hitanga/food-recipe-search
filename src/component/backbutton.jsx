@@ -5,7 +5,7 @@ const BackButton = () => {
 
     return (
         <div className='back'>
-            <button type='button'className='btn btn-success' onClick={() => navigate('/')}>Back</button>
+            <button type='button'className='btn btn-success' onClick={() => navigate('/')}>Back to Search Page</button>
         </div>
     );
 };
