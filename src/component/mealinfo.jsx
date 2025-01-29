@@ -23,7 +23,7 @@ const Mealinfo = () => {
 
     return (
         <div className='container'>
-            <h1>Receipe Details</h1>
+            <h1>Recipe Details</h1>
 
             <div className='back'>
                 <BackButton/>
